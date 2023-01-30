@@ -9,10 +9,12 @@ body {
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .wrapper {
     min-height: 100%;
+    background-color: #1C1C1C;
 }
 
 ul {
@@ -130,4 +132,21 @@ img {
     padding: 15px 36px;
     font-weight: 500;
     font-size: 16px;
+}
+
+.food {
+}
+.food__list {
+    display: flex;
+}
+.food__item {
+}
+.food__img-wrap {
+}
+.food__img {
+    border-radius: 10px 10px 0px 0px;
+}
+.food_dish-title {
+}
+.food__dish-desc {
 }

@@ -135,18 +135,50 @@ img {
 }
 
 .food {
+    padding: 115px 0px 102px;
 }
 .food__list {
     display: flex;
+    justify-content: space-between;
 }
+
 .food__item {
+    width: 23%;
+    
 }
-.food__img-wrap {
+.dish {
+    background-color: #312F30;
+    border-radius: 10px;
+    overflow: hidden;
 }
-.food__img {
-    border-radius: 10px 10px 0px 0px;
+.dish__img-wrap {
+    height: 172px;
+    width: 100%;
+    overflow: hidden;
 }
-.food_dish-title {
+.dish__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
-.food__dish-desc {
+
+.dish__desc {
+    padding: 30px;
+    text-align: center;
+}
+.dish__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 13px;
+}
+.dish__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
 }

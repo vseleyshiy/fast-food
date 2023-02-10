@@ -132,6 +132,7 @@ img {
     padding: 15px 36px;
     font-weight: 500;
     font-size: 16px;
+    border: none;
 }
 
 .food {
@@ -181,4 +182,69 @@ img {
     font-size: 16px;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.7);
+}
+
+.paragraph {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.order {
+    background-color: #312F30;
+    padding: 73px 0px 85px;
+}
+.order__content {
+    display: flex;
+}
+.order__img-wrap {
+}
+.order__img {
+    padding-right: 140px;
+}
+.order__info {
+    max-width: 371px;
+}
+.order__title {
+    padding-top: 90px;
+    margin-bottom: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+.order__text {
+    margin-bottom: 17px;
+}
+
+.price {
+    color: #F6762C;
+}
+
+.order__price {
+    margin-bottom: 13px;
+}
+.price__new {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.1em;
+
+}
+.price__old {
+    color: rgba(246, 118, 44, 0.5);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.1em;
+    text-decoration-line: line-through;
 }

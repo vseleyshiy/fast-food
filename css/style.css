@@ -531,9 +531,7 @@ img {
     column-gap: 92px;
 }
 
-.footer__contact {
-
-}
+.footer__contact {}
 
 .gmail {
     display: flex;
@@ -543,6 +541,12 @@ img {
 
 .gmail__link {
     margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .global {
@@ -553,6 +557,13 @@ img {
 
 .global__link {
     margin-left: 10px;
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .footer__nav {
@@ -562,20 +573,39 @@ img {
     flex: 1;
 }
 
-.footer__nav-col {
-}
+.footer__nav-col {}
 
-.footer__nav-title {}
+.footer__nav-title {
+    margin-bottom: 14px;
+}
 
 .footer__list {}
 
 .footer__item {}
 
-.footer__nav-link {}
+.footer__item-item {
+    margin-bottom: 15px;
+}
 
-.social__list {}
+.footer__nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
 
-.social__item {}
+.social__list {
+    display: flex;
+    column-gap: 10px;
+}
+
+.social__item {
+    height: 15px;
+    width: 15px;
+}
 
 .social__link {}
 
